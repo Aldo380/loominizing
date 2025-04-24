@@ -1,3 +1,4 @@
+#Basic infrasture:
 class LoomisModel(nn.Module):
     def __init__(self):
         super(LoomisModel, self).__init__()
@@ -27,3 +28,5 @@ import torch.optim as optim
 model = LoomisModel()
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+
